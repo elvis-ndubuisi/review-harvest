@@ -10,7 +10,7 @@
   "scripts": {
     "lint": "eslint . --max-warnings 0",
     "generate:component": "turbo gen react-component",
-    "clean": "rm -rf .turbo && rm -rf node_modules"
+    "clean": "yarn rimraf .turbo && yarn rimraf node_modules"
   },
   "devDependencies": {
     "@tooling/eslint-config": "*",
