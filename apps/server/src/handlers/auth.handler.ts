@@ -13,7 +13,13 @@ async function signUpWithCredentials(req: Request, res: Response) {
   }
 }
 
-function signUpWithGoogle() {}
+function signUpWithGoogle(req: Request, res: Response) {
+  try {
+    res.send('okay')
+  } catch (error) {
+    return res.send(error)
+  }
+}
 
 function signOut() {}
 

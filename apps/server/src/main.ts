@@ -10,3 +10,10 @@ process.on('SIGTERM', () => {
     console.debug('http server closed')
   })
 })
+process.on('SIGINT', () => {
+  console.debug('SIGTERM signal received: closing HTTP server')
+  app.close(() => {
+    console.debug('http server closed')
+  })
+  process.exit(0)
+})
