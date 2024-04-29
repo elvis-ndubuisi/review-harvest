@@ -21,7 +21,8 @@
   "workspaces": [
     "apps/*",
     "packages/*",
-    "toolings/*"
+    "tooling/*",
+    "internal/*"
   ],
   "dependencies": {
     "rimraf": "^5.0.5"
