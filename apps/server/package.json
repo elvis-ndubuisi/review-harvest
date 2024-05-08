@@ -2,14 +2,16 @@
   "name": "server",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "lint": "eslint . --max-warnings 0",
     "dev": "tsup --watch",
     "build": "tsup",
     "start": "node dist/index.js",
     "clean": "yarn rimraf dist && yarn rimraf node_modules && yarn rimraf .turbo"
   },
   "dependencies": {
+    "@lucia-auth/adapter-mongodb": "^1.0.3",
+    "arctic": "^1.8.0",
     "argon2": "^0.40.1",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
@@ -17,6 +19,8 @@
     "google-auth-library": "^9.8.0",
     "helmet": "^7.1.0",
     "jsonwebtoken": "^9.0.2",
+    "lucia": "^3.2.0",
+    "mongoose": "^8.3.2",
     "yup": "^1.4.0"
   },
   "devDependencies": {

@@ -11,7 +11,9 @@
   "devDependencies": {
     "@tooling/eslint-config": "*",
     "@tooling/typescript-config": "*",
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
     "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.14",
     "turbo": "latest"
   },
   "engines": {

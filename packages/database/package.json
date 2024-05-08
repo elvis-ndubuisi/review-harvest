@@ -2,5 +2,9 @@
   "name": "@reviewhv/database",
   "version": "0.0.0",
   "main": "index.ts",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "@lucia-auth/adapter-mongodb": "^1.0.3",
+    "mongoose": "^8.3.2"
+  }
 }
