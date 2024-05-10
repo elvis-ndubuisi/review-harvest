@@ -1,5 +1,5 @@
 {
-    "tabWidth": 4,
+    "tabWidth": 2,
     "bracketSpacing": false,
     "arrowParens": "always",
     "bracketSameLine": true,
@@ -22,5 +22,5 @@
     ],
     "importOrderSeparation": true,
     "importOrderSortSpecifiers": true,
-    "plugins": ["prettier-plugin-tailwindcss","@trivago/prettier-plugin-sort-imports"]
+    "plugins": ["prettier-plugin-tailwindcss", "@trivago/prettier-plugin-sort-imports"]
 }
