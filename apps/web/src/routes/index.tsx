@@ -1,4 +1,4 @@
-import {Badge} from '@/components/ui/badge'
+// import {Badge} from '@/components/ui/badge'
 import {Button} from '@/components/ui/button'
 import {Cta} from '@/components/widgets/cta'
 import {Faqs} from '@/components/widgets/faqs'
