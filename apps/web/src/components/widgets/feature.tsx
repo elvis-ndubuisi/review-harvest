@@ -1,7 +1,7 @@
 export function Feature() {
   return (
     <section className='p-3 my-4 space-y-6'>
-      <section className='grid grid-cols-2 gap-6 max-w-screen-xl mx-auto'>
+      <section className='grid grid-cols-2 gap-6 max-w-screen-xl mx-auto items-center'>
         <section>
           <h2 className='font-bold text-2xl max-w-lg'>
             Efficiently Gather Feedback with Our Review Collection Feature
@@ -27,7 +27,9 @@ export function Feature() {
             </div>
           </section>
         </section>
-        <section>image</section>
+        <section>
+          <img src='' alt='' className='w-[400px] aspect-square bg-gray-100' />
+        </section>
       </section>
 
       <section className='grid grid-cols-2 gap-6'>

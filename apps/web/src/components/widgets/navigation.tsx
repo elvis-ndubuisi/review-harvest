@@ -22,8 +22,9 @@ export function Navigation() {
             ))}
           </nav>
         </div>
-        <div>
-          <Button>Learn</Button>
+        <div className='flex items-center gap-3'>
+          <Button variant='ghost'>Log in</Button>
+          <Button>Start for free</Button>
         </div>
       </section>
     </header>
