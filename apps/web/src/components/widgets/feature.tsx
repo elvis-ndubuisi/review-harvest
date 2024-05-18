@@ -1,7 +1,14 @@
+import {Badge} from '../ui/badge'
+
 export function Feature() {
   return (
     <section className='p-3 my-4 space-y-6'>
-      <section className='grid grid-cols-2 gap-6 max-w-screen-xl mx-auto items-center'>
+      <div className='items-center justify-center'>
+        <Badge variant='outline' className='rounded-full text-base font-normal mx-auto'>
+          ✨ Features
+        </Badge>
+      </div>
+      {/* <section className='grid grid-cols-2 gap-6 max-w-screen-xl mx-auto items-center'>
         <section>
           <h2 className='font-bold text-2xl max-w-lg'>
             Efficiently Gather Feedback with Our Review Collection Feature
@@ -59,7 +66,7 @@ export function Feature() {
             </p>
           </div>
         </section>
-      </section>
+      </section> */}
     </section>
   )
 }

@@ -1,5 +1,6 @@
 // import {Badge} from '@/components/ui/badge'
 import {Button} from '@/components/ui/button'
+import {Benefits} from '@/components/widgets/benefits'
 import {Cta} from '@/components/widgets/cta'
 import {Faqs} from '@/components/widgets/faqs'
 import {Feature} from '@/components/widgets/feature'
@@ -24,7 +25,7 @@ function Page() {
             Collect and Leverage customer reviews
           </Badge> */}
 
-          <h1 className='font-bold text-6xl text-center max-w-2xl mx-auto'>
+          <h1 className='font-bold text-6xl text-center max-w-3xl mx-auto'>
             Did you hear what <br /> your user have to say?
           </h1>
           <p className='text-lg font-medium opacity-80 text-center mx-auto max-w-2xl'>
@@ -32,11 +33,15 @@ function Page() {
             Gain deep insights from centralized customer feedback data.
           </p>
           <div className='flex items-center gap-4 justify-center'>
+            <Button size={'lg'} variant={'ghost'}>
+              See how it works
+            </Button>
             <Button size={'lg'}>How shall I?</Button>
           </div>
         </div>
       </section>
       <Feature />
+      <Benefits />
       <Testimonies />
       <Cta />
       <Faqs />

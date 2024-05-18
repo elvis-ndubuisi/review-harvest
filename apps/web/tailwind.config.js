@@ -19,7 +19,7 @@ module.exports = {
       },
     },
     extend: {
-      fontFamily: {sans: ['Inter', defaultTheme.fontFamily.sans]},
+      fontFamily: {sans: ['Sora', defaultTheme.fontFamily.sans]},
       colors: {
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
