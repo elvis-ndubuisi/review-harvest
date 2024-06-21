@@ -4,7 +4,7 @@ import {Link} from '@tanstack/react-router'
 
 export function Footer() {
   return (
-    <footer>
+    <footer className='px-2'>
       <section className='max-w-screen-xl mx-auto py-8'>
         <div>
           <h3>ReviewHarvest</h3>

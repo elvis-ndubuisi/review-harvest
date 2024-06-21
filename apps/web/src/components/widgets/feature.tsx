@@ -2,7 +2,7 @@ import {Badge} from '../ui/badge'
 
 export function Feature() {
   return (
-    <section className='p-3 my-4 space-y-6'>
+    <section className='p-2 my-4 space-y-6'>
       <div className='items-center justify-center'>
         <Badge variant='outline' className='rounded-full text-base font-normal mx-auto'>
           ✨ Features

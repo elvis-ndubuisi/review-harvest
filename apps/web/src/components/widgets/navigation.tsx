@@ -11,7 +11,7 @@ const LINKS = [
 
 export function Navigation() {
   return (
-    <header className='py-3'>
+    <header className='py-3 px-2'>
       <section className='flex items-center justify-between gap-6 max-w-screen-xl mx-auto'>
         <div className='flex items-center gap-6'>
           <h3 className='font-bold text-lg'>ReviewHarvest</h3>

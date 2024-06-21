@@ -17,7 +17,7 @@ function Page() {
   return (
     <>
       <Navigation />
-      <section className='mb-10 grid place-content-center'>
+      <section className='mb-10 grid place-content-center px-2'>
         <div className='space-y-6 mt-20 mb-10'>
           {/* <Badge
             variant='outline'

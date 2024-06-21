@@ -1,6 +1,6 @@
 export function Testimonies() {
   return (
-    <section>
+    <section className='px-2'>
       <p>testimonies</p>
     </section>
   )
